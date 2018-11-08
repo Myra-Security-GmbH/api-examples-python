@@ -1,2 +1,2 @@
-# api-examples-python
-Myra API examples in Python
+# API examples in Python
+Example code for Myra API usage with Python.
