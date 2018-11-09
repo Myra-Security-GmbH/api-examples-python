@@ -42,7 +42,7 @@ signature             = hmac.new(signingkey_hexmac, msg=signing_string, digestmo
 request_authorization = 'MYRA ' + api_key + ':' + base64.b64encode(signature)
 
 #
-# UNCOOMMENT FOR DEBUG
+# UNCOMMENT FOR DEBUG
 #
 #print 'Signing string: ' + signing_string
 #print 'DateKey: ' + datekey_hexmac
